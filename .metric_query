@@ -1,0 +1,5 @@
+# Metric_alias~Query
+NET_IN~NetworksBytesIn[###AGGREGATION###]{resourceId="###INSTANCE_OCID###"}.rate()
+NET_OUT~NetworksBytesOut[###AGGREGATION###]{resourceId="###INSTANCE_OCID###"}.rate()
+MEM~MemoryUtilization[###AGGREGATION###]{resourceId="###INSTANCE_OCID###"}.max()
+CPU~CPUUtilization[###AGGREGATION###]{resourceId="###INSTANCE_OCID###"}.max()

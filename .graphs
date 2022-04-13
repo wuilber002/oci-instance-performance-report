@@ -1,0 +1,3 @@
+# Metric_alias1:line_color1,Metric_alias2:line_color2,...~Legend_axis 
+CPU:red,MEM:blue~Utilization (%)
+NET_IN:green,NET_OUT:red~MB/s
